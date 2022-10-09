@@ -14,5 +14,5 @@ if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia){
 const context = canvas.getContext('2d');
 
 capture.addEventListener("click", function(){
-    context.drawImage(video,0,0,640,480);
+    context.drawImage(video,0,0,300,150);
 });
