@@ -1,0 +1,24 @@
+.container{
+    display: inline-block;
+}
+
+#video{
+    width: 640px;
+    height: 480px;
+    /* border: 2px solid red; */
+    /* background-color: black; */
+    float: left;
+}
+#canvas{
+    width: 640px;
+    height: 480px;
+    /* float: right; */
+    border: 2px solid red;
+    /* display: inline-block; */
+}
+
+
+.opencamera{
+    margin-top: 5px;
+    margin-left: 600px;
+}
